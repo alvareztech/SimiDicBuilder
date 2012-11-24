@@ -30,6 +30,6 @@ public class Util {
         } else if (language.equals("castellano") || language.equals("español") || language.equals("espanol")) {
             return "es";
         }
-        return "";
+        return language;
     }
 }
